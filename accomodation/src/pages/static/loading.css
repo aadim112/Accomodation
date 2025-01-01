@@ -1,0 +1,53 @@
+.search-template{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+.normal-card{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.normal-card-above{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #c4c4c4;
+    transition: background-color ease;
+    animation: loading 1.2s infinite;
+}
+.normal-card-bottom{
+    width: 450px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: #e2e2e2;
+    transition: background-color ease;
+    animation: loading 1.2s infinite;
+}
+.backside-card{
+    width: 450px;
+    height: 530px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    transition: background-color ease;
+    animation: loading 1.2s infinite 0.5s;
+}
+@keyframes loading {
+    0% {
+        background-color: #c4c4c4;
+    }
+    50% {
+        background-color: #e0e0e0;
+    }
+    100% {
+        background-color: #c4c4c4;
+    }
+}

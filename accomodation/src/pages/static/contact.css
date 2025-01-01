@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    height: 90px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family: playfair display;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.revert{
+    width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 7px solid black;
+	border-bottom: 7px solid transparent;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
